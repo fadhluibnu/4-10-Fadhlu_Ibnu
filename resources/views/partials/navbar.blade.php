@@ -20,6 +20,14 @@
                     <a class="nav-link {{ $title === 'Contacts' ? 'active' : '' }}" href="/contacts">Contacts</a>
                 </li>
             </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="{{ route('login') }}" class="nav-link">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('register') }}" class="nav-link">Register</a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>
